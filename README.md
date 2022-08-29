@@ -49,6 +49,15 @@ O botão Specs demonstra todos os arquivos de teste do projeto. Um clique em um 
 
 Para rodar os testes sem abrir a interface gráfica, usaremos o comando *npx cypress run*. Esses testes vão ser executados em background, sem abrir nenhuma tela. Nesse momento, o cypress identifica quais testes estão sendo executados com sucesso, sem erro; nos mostra o tempo que levou para rodar todos os testes, e nós conseguimos ver os resultados. Além disso há o recurso de vídeo que é gerado, que nos mostra o que aconteceu, caso tenhamos dúvida sobre algum teste, possibilitando que façamos o playback dessa ação.
 
+### Cenários de Teste
+```
+
+* Verificação de Mensagens de Validação em Campos obrigatórios
+* Verificação de mensagem de CPF inválido
+* Verificação de CEP inválido
+* Confirmação de cadastro quando o mesmo for efetuado.
+
+```
 
 ## 🛠️ Construído com
 
